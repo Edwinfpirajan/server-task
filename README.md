@@ -41,7 +41,7 @@ Una vez clonado el repositorio, sigue estos pasos para configurar el proyecto:
 
     Instala las dependencias de PHP con Composer:
 
-bash
+
 
 cd server-task
 composer install
@@ -50,7 +50,7 @@ composer install
 
 Copia el archivo .env.example a .env:
 
-bash
+
 
 cp .env.example .env
 
@@ -58,13 +58,13 @@ Luego, abre .env y configura tus variables de entorno, especialmente las relacio
 
     Genera la clave de la aplicación:
 
-bash
+
 
 php artisan key:generate
 
     Ejecuta las migraciones y seeders (si es necesario):
 
-bash
+
 
 php artisan migrate
 php artisan db:seed
@@ -80,7 +80,7 @@ Ejecución del Servidor
 
 Para correr nuestro servidor en modo desarrollo, ejecutamos el siguiente comando:
 
-bash
+
 
 php artisan serve
 
@@ -97,7 +97,7 @@ Crear una nueva tarea:
 
 Cuerpo de la solicitud:
 
-json
+
 
 {
   "title": "Ejemplo de titulo",
@@ -112,7 +112,7 @@ Actualizar una tarea:
 
 Cuerpo de la solicitud:
 
-json
+
 
 {
   "title": "Ejemplo de titulo actualizado",
