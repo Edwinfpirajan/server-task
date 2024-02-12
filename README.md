@@ -33,7 +33,6 @@ Para instalar las tecnologías requeridas en diferentes sistemas operativos, sig
 
 Para inicializar nuestro proyecto, debemos clonar nuestro proyecto ejecutando el comando:
 
-```bash
 git clone https://github.com/Edwinfpirajan/server-task.git
 
 Configuración del Proyecto Clonado
